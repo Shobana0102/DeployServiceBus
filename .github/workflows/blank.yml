@@ -34,7 +34,7 @@ jobs:
       - name: Run Bicep Linter
         working-directory: '${{github.workspace}}/Source/DeploySB'
         run: |
-          # az bicep build --file ./azure_resource.bicep  --outdir ${{ env.TEMPLATE_FILE_DIRECTORY }}/jsonFilesForScan
+          # az bicep build --file ./ServiceBus.bicep  --outdir ${{ env.TEMPLATE_FILE_DIRECTORY }}/jsonFilesForScan
           # ls ${{ env.TEMPLATE_FILE_DIRECTORY }}/jsonFilesForScan
           az bicep build --file ./ServiceBus.bicep  --outdir ./jsonFilesForScan
           ls ./jsonFilesForScan
