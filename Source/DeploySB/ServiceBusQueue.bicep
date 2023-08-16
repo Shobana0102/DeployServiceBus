@@ -7,7 +7,6 @@ resource serviceBusQueue 'Microsoft.ServiceBus/namespaces/queues@2021-06-01-prev
   name: '${namespaceName}/${queueName}'
   properties: {
     lockDuration: 'PT1M' // 1 minute
-    enablePartitioning: enablePartitioning
     defaultMessageTimeToLive: defaultMessageTtl
     maxDeliveryCount: maxDeliveryCount
   }
