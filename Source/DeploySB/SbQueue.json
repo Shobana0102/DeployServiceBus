@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "namespaceName": {
+      "value": "Servicebus941"
+    },
+    "queueName": {
+      "value": "SbQueue941"
+    },
+    "enablePartitioning": {
+      "value": true
+    },
+    "defaultMessageTtl": {
+      "value": "P7D"
+    },
+    "maxDeliveryCount": {
+      "value": 10
+    }
+  }
+}
