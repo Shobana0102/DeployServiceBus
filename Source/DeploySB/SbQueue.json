@@ -7,15 +7,6 @@
     },
     "queueName": {
       "value": "SbQueue941"
-    },
-    "enablePartitioning": {
-      "value": true
-    },
-    "defaultMessageTtl": {
-      "value": "P7D"
-    },
-    "maxDeliveryCount": {
-      "value": 10
     }
   }
 }
