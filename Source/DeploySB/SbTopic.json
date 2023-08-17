@@ -5,9 +5,6 @@
     "namespaceName": {
       "value": "Servicebus941"
     },
-    "locationName":{
-      "value":"Canada Central"
-    },
     "topicName": {
       "value": "SbTopic941"
     }
