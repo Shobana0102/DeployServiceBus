@@ -5,7 +5,7 @@
     "namespaceName": {
       "value": "Servicebus941"
     },
-    "queueName": {
+    "topicName": {
       "value": "SbTopic941"
     }
   }
