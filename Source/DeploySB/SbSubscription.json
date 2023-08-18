@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "namespaceName": {
+            "value":"Servicebus941",
+    },
+    "topicName": {
+           "value":"SbTopic941",
+    },
+    "subscriptionName": {
+        "value":"SbSubscription941",
+    }
+  }
+}
