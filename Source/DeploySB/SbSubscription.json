@@ -6,7 +6,7 @@
             "value":"Servicebus941",
     },
     "topicName": {
-           "value":"SbTopic941",
+           "value":"servicebustopic941",
     },
     "subscriptionName": {
         "value":"SbSubscription941",
