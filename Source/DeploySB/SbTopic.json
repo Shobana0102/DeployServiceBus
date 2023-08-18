@@ -6,7 +6,7 @@
       "value": "Servicebus941"
     },
     "serviceBusTopicName": {
-      "value": "ServicebusTopic941"
+      "value": "servicebustopic941"
     }
   }
 }
